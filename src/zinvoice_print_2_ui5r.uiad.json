@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Invoice Print"
+  },
+  "ui5AppDetails": {
+    "appId": "zinvoice_print.zinvoice_print"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_F84D7BAFB1FB663F267E7A4070D5C20CECE3BD86_TM",
+    "semanticObject": "zinvoice_print_",
+    "action": "Display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_F84D7BAFB1FB663F267E7A4070D5C20CECE3BD86_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Invoice Print",
+        "subtitle": "SD"
+      }
+    }
+  ]
+}

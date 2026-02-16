@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Packing Details'
+define service ZINVOICE_PRINT_DEF {
+  expose I_BillingDocument as BillF4;
+}
